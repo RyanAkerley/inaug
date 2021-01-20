@@ -8,6 +8,7 @@ int main()
 	int secdiff, mindiff, hrdiff, daydiff;
 
 	id.tm_sec  = 0;
+	id.tm_min  = 0;
 	id.tm_hour = 12;
 	id.tm_mday = 20;
 	id.tm_mon  = 0;
